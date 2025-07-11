@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-font: 'Poppins', sans-serif;
+    --heading-font: 'Playfair Display', serif;
+    --text-color: #333;
+    --heading-color: #111;
+}
+
+#container {
+    width: 100%;
+    font-size: 10px;
+    color: #808184;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+#brand-sel {
+
+    align-items: center;
+}
+
+#brand-sel div {
+    width: 100%;
+    height: 180px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: -10px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#bs1 {
+    background-image: url("Images/Range-rover_HoB.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bs2 {
+    background-image: url("Images/Defender_HoB.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bs3 {
+    background-image: url("Images/Discovery_HOB.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#brand-sel h2 {
+    color: white;
+    width: 100%;
+    font-family: "Michroma", sans-serif;
+
+}
+
+#brand-sel button {
+    color: black;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border: 0;
+}
+
+footer {
+    padding: 20px 20px;
+}
+
+.footer-links {
+    display: none;
+}
+
+#footer-show h3 {
+    font-size: 10px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: black;
+    width: 100%;
+    letter-spacing: 1px;
+}
+
+#footer-show {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: black;
+}
+
+#footer-show span {
+    display: none;
+}
+
+#about-links-child {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px 0px;
+}
+
+#about-links-child a {
+    width: 100%;
+    text-decoration: none;
+    color: #4A4F54;
+    /* font-size: 10px; */
+    margin: 10px 0px;
+}
+
+#copyright span {
+    width: 100%;
+}
+
+#copyright {
+    margin: 25px 0px;
+}
+
+#site-info div {
+    margin: 10px 0px;
+}
+
+footer i{
+    font-size: 50px;
+    display: block;
+    width: 100%;
+}
+
+@media only screen and (min-width:768px) {
+    footer {
+        padding: 40px 40px;
+    }
+
+    .footer-links {
+        display: inline;
+        width: 24%;
+    }
+
+    #f-links {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer-links h3 {
+        font-size: 10px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        color: black;
+        width: 100%;
+        letter-spacing: 1px;
+        margin: 0px 0px;
+    }
+
+    .footer-links li {
+        margin: 10px 0px;
+        font-weight: 100px;
+        text-align: justify;
+    }
+
+    .footer-links li a {
+        text-decoration: none;
+        color: #4A4F54;
+    }
+
+    #footer-show {
+        margin: 0px 0px;
+    }
+
+    #about-links-child a {
+        margin: 15px 0px;
+    }
+}
+
+@media only screen and (min-width:1024px) {
+    #brand-sel {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #brand-sel div {
+        width: 33.3334%;
+        height: 600px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+}
